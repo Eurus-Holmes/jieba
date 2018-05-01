@@ -109,11 +109,16 @@ print(", ".join(seg_list))
     * 自定义词典：https://github.com/fxsjy/jieba/blob/master/test/userdict.txt
 
     * 用法示例：https://github.com/fxsjy/jieba/blob/master/test/test_userdict.py
-
-
-        * 之前： 李小福 / 是 / 创新 / 办 / 主任 / 也 / 是 / 云 / 计算 / 方面 / 的 / 专家 /
-
-        * 加载自定义词库后：　李小福 / 是 / 创新办 / 主任 / 也 / 是 / 云计算 / 方面 / 的 / 专家 /
+    
+    
+    
+    
+    
+ `import jieba` <br>
+ `seg_list = jieba.cut("李小福是创新办主任也是云计算方面的专家")` <br>
+ `print(", ".join(seg_list))` <br>
+* 之前： 李小福 / 是 / 创新 / 办 / 主任 / 也 / 是 / 云 / 计算 / 方面 / 的 / 专家 /
+* 加载自定义词库后：　李小福 / 是 / 创新办 / 主任 / 也 / 是 / 云计算 / 方面 / 的 / 专家 /
 
 ### 调整词典
 
